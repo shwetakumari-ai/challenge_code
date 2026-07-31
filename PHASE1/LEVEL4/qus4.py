@@ -1,0 +1,1 @@
+#Take 24-hour time (hours and minutes) and print whether it is AM or PM.Simple: if hours < 12 → AM, if hours >= 12 → PM. Special cases: 0 hours = 12:00 AM (midnight), 12 hours = 12:00 PM (noon). Validate that hours are 0-23 and minutes are 0-59. This is a direct range classification problem.
