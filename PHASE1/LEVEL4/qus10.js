@@ -7,8 +7,9 @@ if (password.length < 8) {
 }
 else {
     for (let i = 0; i < password.length; i++) {
-        if (Character.isDigit(password.charAt(i))) {
-            hasDigit = true;
+        //if (Character.isDigit(password.charAt(i))) {
+        if (password[i] >= '0' && password[i] <= '9') {
+        hasDigit = true;
             break;
         }
     }
